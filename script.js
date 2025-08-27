@@ -1,8 +1,6 @@
 
 const navHeartCounter = document.getElementById("hart_nav");
-
 const heartIcons = document.getElementsByClassName("hart");
-
 
 let heartCount = 0;
 for (let i = 0; i < heartIcons.length; i++) {
@@ -31,9 +29,9 @@ for (let i = 0; i < callButtons.length; i++) {
     count_nav -= 20;                
     countNav.innerText = count_nav;
     
-    
     if(count_nav<20){
       alert("Recharge Your Balance")
+
       for (let j = 0; j < callButtons.length; j++) {
         callButtons[j].disabled = true;
         callButtons[j].classList.add("bg-red-600");
@@ -43,6 +41,9 @@ for (let i = 0; i < callButtons.length; i++) {
     
   });
 }
+
+
+
 
 
 
