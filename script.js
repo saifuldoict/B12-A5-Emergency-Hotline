@@ -28,36 +28,23 @@ countNav.innerText = count_nav;
 
 for (let i = 0; i < callButtons.length; i++) {
   callButtons[i].addEventListener("click", () => {
-    count_nav -= 10;                
+    count_nav -= 20;                
     countNav.innerText = count_nav;
     
     
-    if(count_nav<=10){
+    if(count_nav<20){
       alert("Recharge Your Balance")
-      
+      for (let j = 0; j < callButtons.length; j++) {
+        callButtons[j].disabled = true;
+        callButtons[j].classList.add("bg-red-600");
+        
+      }
     } 
+    
   });
 }
 
 
-const callHistory = document.getElementById("call_history");
 
-    callButtons.forEach(btn => {
-      btn.addEventListener("click", () => {
-        const serviceName = btn.parentElement.querySelector("h3").innerText;
-        const time = new Date().toLocaleTimeString();
-
-        // Create a new div for each transaction
-        const transactionDiv = document.createElement("div");
-        transactionDiv.className = "transaction";
-        transactionDiv.innerHTML = `
-          <strong>${serviceName}</strong><br>
-          <small>Time: ${time}</small>
-        `;
-
-        // Append transaction to call history
-        callHistory.appendChild(transactionDiv);
-      });
-    });
 
 
