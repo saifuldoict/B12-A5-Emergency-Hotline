@@ -117,11 +117,11 @@ for(let i=0; i< copyButtons.length; i++){
 
       const historyItem = document.createElement("div");
       historyItem.className =
-        "flex items-center justify-center bg-[#fafafa] rounded-lg px-2 py-2";
+        "flex items-center justify-start bg-[#fafafa] rounded-lg px-1  py-2 mb-2";
 
       historyItem.innerHTML = `
         <div>
-          <h1 class="text-black text-sm">${serviceName}</h1>
+          <h1 class="text-black text-sm ">${serviceName}</h1>
            <p class="text-sm text-gray-700">${serviceNumber}</p>
         </div>
        <p class="text-gray-400">${timeString}</p> 
