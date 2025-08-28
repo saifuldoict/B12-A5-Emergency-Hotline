@@ -1,3 +1,81 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Create Readme
+
+You have to create a `Readme.md` file. and write down following questions. Dont Try to copy paste from AI Tools. Just write what you know about these. If you don't know , then search , learn , understand and then write.
+
+### 6. Answer the following questions clearly:
+
+1. What is the difference between **getElementById, getElementsByClassName, and querySelector / querySelectorAll**?
+2. How do you **create and insert a new element into the DOM**?
+3. What is **Event Bubbling** and how does it work?
+4. What is **Event Delegation** in JavaScript? Why is it useful?
+5. What is the difference between **preventDefault() and stopPropagation()** methods?
+
+
+
+
+
+
+1. getElementById: getElementById হলো JavaScript DOM method যা HTML document থেকে নিদিষ্ট কোন একটি এলিমেন্টকে ধরার জন্য এটি ব্যবহার করা হয়ে থাকে ।
+
+   getElementsByClassName: getElementByClassName হলো JavaScript DOM method যা HTML document থেকে একই Class ব্যবহার করে  অনেকগুলো এলিমেন্টকে ধরার জন্য এটি ব্যবহার করা হয়ে থাকে। 
+
+  querySelector : querySelector হলো JavaScript DOM method যা HTML document থেকে শুধুমাত্র যেকোন Class এর প্রথম ইলিমেনটাকে ধরা হয়।
+  querySelectorAll : querySelectorAll হলো JavaScript DOM method যা HTML document থেকে  Class সবগুলো ইলিমেনটাকে ধরা হয়।
+
+
+২.  Create the element_   Use document.createElement();
+    insert a new element_ .prepend();
+
+    ৩.  JavaScript এ event bubbling হলো এমন একটি প্রক্রিয়া যেখানে কোনো ইভেন্ট (যেমন click) প্রথমে যে element এ ঘটেছে সেখানে কাজ করে, তারপর সেটি তার পেরেন্ট এর উপরে দেখা যায়।
+
+    ৪. Event Delegation হলো JavaScript-এর একটি পদ্ধতি, যেখানে  parent element-এ event listener বসাই, এবং সেই ইভেন্ট তার  clild হিসাবে কাজ করে।
+
+    ৫. ব্রাউজারের অটোমেটিক রিলোড বন্ধ করার জন্য preventDefault() ব্যবহার করা হয়। সাধারনত এটি ফরম এর কাজের জন্য ব্যবহার করা হয়। 
+
+      সাধারণত event bubbling বা delegation নিয়ন্ত্রণ করতে ব্যবহার করা হয়।
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## WELCOME TO ( সহজ সরল সিম্পল ) ASSIGNMENT-005
 
 ### 📅 Deadline For 60 marks: 29th August, 2025 (11:59 pm ⏱️)
@@ -104,17 +182,6 @@ This Section will have layout as figma
 
 ---
 
-## Create Readme
-
-You have to create a `Readme.md` file. and write down following questions. Dont Try to copy paste from AI Tools. Just write what you know about these. If you don't know , then search , learn , understand and then write.
-
-### 6. Answer the following questions clearly:
-
-1. What is the difference between **getElementById, getElementsByClassName, and querySelector / querySelectorAll**?
-2. How do you **create and insert a new element into the DOM**?
-3. What is **Event Bubbling** and how does it work?
-4. What is **Event Delegation** in JavaScript? Why is it useful?
-5. What is the difference between **preventDefault() and stopPropagation()** methods?
 
 ---
 
